@@ -1,0 +1,126 @@
+body {
+font-size: 85%;
+font-family:'Helvetica', Verdana, Arial, Sans-Serif;
+text-align:center; 
+/*Zentrierung f. Internet Explorer < Version 7*/
+}
+
+#wrap {
+width:760px;
+margin:0 auto;
+text-align:left;
+padding-top 10px;
+padding-bottom:10px;
+}
+
+#header {
+top:0;
+width: 760px;
+height: 90px;
+text-align: left;
+font-family:Arial,sans-serif;
+   font-weight:normal;
+   color: #A73943;
+   font-size: 1.2em}
+
+div#menu {
+display: none;
+}
+
+#content {
+float: right;
+top:10;
+width:760px;
+text-align: left;
+display: block;
+}  
+
+#sidebar {
+display: none;
+}
+
+#footer {
+float: left;
+margin-top: 30px;
+top:0;
+width: 760px;
+height: 90px;
+text-align: left;
+font-family:Arial,sans-serif;
+   font-weight:normal;
+   color: #A73943;
+   font-size: 1.2em}
+
+
+p {
+font-family:helvetica;
+font-style:classic;
+font-size:1em;
+margin:10px 10px;
+text-align: left;
+margin-top:10px
+}
+
+#content li {
+font-family:helvetica;
+font-style:classic;
+font-size:1em;
+margin:10px 10px;
+text-align: left;
+margin-top:10px
+}
+
+h1 {
+font-family:helvetica;
+font-style:classic;
+font-size:2.0em;
+text-align:left;
+margin: 10px;
+margin-bottom: 50px;
+}
+
+h2 {
+margin: 10px;
+font-family: helvetica;
+font-style:classic;
+font-size: 1.5em;
+text-align:left;
+margin-bottom: 25px;
+clear: left}
+
+h3 {
+margin: 10px;
+font-family: helvetica;
+font-style:bold;
+font-size: 1.2em;
+text-align:left;
+}
+
+h4 {
+margin: 10px;
+font-family:helvetica;
+font-style:classic;
+font-size:1.0em;
+text-align:left;
+}
+
+h5 {
+margin: 10px;
+margin-top: 25px;
+font-family:helvetica;
+font-style:classic;
+font-size:1.0em;
+text-align:left;
+}
+
+
+h6 {
+margin:10px;
+margin-top:0;
+font-family:helvetica;
+font-style:classic;
+font-size:1em;
+color: #A73943;
+}
+
+

@@ -1,0 +1,28 @@
+
+/* Main Stylesheet */
+
+
+@import url('bootstrap.css');
+@import url('bootstrap-theme.css');
+@import url('sticky-footer-navbar.css');
+/*@import url('praxis.css');
+@import url('print.css');
+*/
+
+@grani: #A73943;
+
+h1, h2, h3, h4, h5, h6 {
+	color: #A73943;
+
+} 
+
+#footer {
+	color: grey;
+	
+}
+
+
+a, a:active,
+a:hover {
+  color: #A73943;
+}

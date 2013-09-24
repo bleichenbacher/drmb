@@ -1,0 +1,75 @@
+<br> 
+<br> 
+ <div id="footer" >
+
+      <div class="container">
+              	<br>
+		<h5> Praxis für Gynäkologie und Kinderwunsch</h5>
+		<p>
+	<a href="/de/cv-mb/">Dr. med. Markus Bleichenbacher</a><br>
+	MSc Clinical Embryology<br>
+	FMH Gynäkologie und Geburtshilfe<br>
+	Schwerpunkt gynäkologische Endokrinologie und Reproduktionsmedizin<br>
+	Schwerpunkt operative Gynäkologie und Geburtshilfe
+</p>
+
+		<p>Spitalgasse 36 · CH-3011 Bern · T +41 (0) 31 310 24 24 · F +41 (0) 31 310 24 22<br/>
+		www.drbleichenbacher.ch · info@drbleichenbacher.ch · bleichenbacher@hin.ch
+		</p>
+         <div id="language-change">
+
+				<% if language_code_of(@item) == 'en' %>
+					<a href="/de/">Deutsch</a> | <strong>English</strong> | <a href="/en/imprint/">Imprint</a> 
+					
+				
+				<% elsif language_code_of(@item) == 'de' %>
+					<strong>Deutsch</strong> | <a href="/en/">English</a> | <a href="/de/impressum/">Impressum</a>
+				
+				<% else %>
+							<!-- WARNING: untranslated -->
+					<a href="/de/"></a>
+				
+				<% end %>     
+				
+<p> <small>		
+	  Copyright &copy; 2012-2013 by Dr. med. Markus Bleichenbacher. All rights reserved. Last changed <%= Time.now.strftime("%d.%m.%Y") %>.
+	  </small></p>
+	  <br>				
+                
+            </div>		
+            		<p><img src="/assets/img/kernhoch.jpg" style="margin-left:-15px"> </p>
+
+				
+
+ 
+            <!--
+            <% if @item.path != '/' %>				
+					<div id="languages">
+					  <% translations_of(@item).each do |t| %>
+					    <li id="lang-selection">
+					      <% if @item == t %>
+					        <span class="active" lang="<%= language_code_of(t) %>">
+					          <%= language_name_of(t) %>
+					        </span>
+					      <% else %>
+					        <a href="<%= t.path %>"
+					           lang="<%= language_code_of(t) %>"
+					           hreflang="<%= language_code_of(t) %>">
+					          <%= language_name_of(t) %>
+					        </a>
+					      <% end %>
+					    </li>
+					  <% end %>
+				  </div> 
+				  
+			 <% end %> 
+			 -->
+
+        
+
+		
+
+
+       </div> <!-- container -->
+
+</div> <!-- footer -->

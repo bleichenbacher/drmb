@@ -1,0 +1,6 @@
+<% (@site.sorted_articles).each do |post| %>
+	<h3><%= link_to post[:title], post.path %></h3>
+	<p><%= get_pretty_date(post) %> - 	
+    <%= post[:lead] %></p>
+
+<% end %>

@@ -1,0 +1,22 @@
+
+<h1>Aktuell</h1>
+
+	
+  <div class="row">
+  <div class="col-sm-6">  
+  	  <br>
+  	  <br>
+  	  <p><img src="/assets/img/0015.jpg" class="img-rounded pull-left"  width="300px" alt="Granatapfel"> </p>  
+
+  </div>
+  <div class="col-sm-6">  
+<% (@site.sorted_articles).each do |post| %>
+	<h3><%= link_to post[:title], post.path %></h3>
+	<p><%= get_pretty_date(post) %> - 	
+    <%= post[:lead] %></p>
+
+<% end %>
+
+
+  </div>  <!-- span -->
+</div> <!-- row -->

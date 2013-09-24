@@ -1,0 +1,145 @@
+#!/usr/bin/env ruby
+
+# A few helpful tips about the Rules file:
+#
+# * The string given to #compile and #route are matching patterns for
+#   identifiers--not for paths. Therefore, you can’t match on extension.
+#
+# * The order of rules is important: for each item, only the first matching
+#   rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. “/about/” for the file
+#   “content/about.html”). To select all children, grandchildren, … of an
+#   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
+#   because “*” matches zero or more characters.
+
+
+
+# Stylesheets 
+#compile '/assets/css/**' do
+#  filter :less
+#end
+
+compile '/static/*/' do
+  # don’t filter or layout
+end
+
+# Sitemap and htaccess do get filtered with erb, but get no layout.
+compile %r{^/(sitemap|htaccess)/$} do
+  filter :erb
+end
+
+
+compile '/assets/img/*' do
+  # don’t filter or layout
+end
+
+
+compile '/assets/ico/*' do
+  # don’t filter or layout
+end
+
+compile '/assets/css/*' do
+  # filter :less	
+  filter :rainpress
+  filter :relativize_paths, :type => :css
+  # filter :cache_buster
+end
+     
+compile '/assets/less/*' do
+#  filter :less
+  #filter :cache_buster
+end
+
+#
+compile '/assets/js/*' do
+  # don’t filter or layout
+end
+
+compile 'blog/feed' do
+  filter :erb
+end
+
+compile '/de/news/*' do
+  filter :kramdown
+  layout 'news'
+end
+
+
+compile '/' do
+  filter :erb
+end
+
+
+compile '*' do
+  if item.binary?
+    # don’t filter binary items
+  else
+    filter :erb
+    layout 'default'
+    #filter :rubypants_ddfreyne
+    #filter :cache_buster
+  end
+  filter :relativize_paths, :type => :html
+end
+
+
+route '/htaccess/' do
+  '/.htaccess'
+end
+
+route '/sitemap/', :rep => 'gzip' do
+  '/sitemap.xml.gz'
+end
+
+route '/static/*/' do 
+  item.identifier.chop 
+end 
+
+# Stylesheets 
+route '/assets/css/*' do
+  # path with version
+  # item.identifier[0..-2] + '-v' + item[:version].to_s + '.css'
+  item.identifier.chop + '.css'
+  #fp = fingerprint(item[:filename])
+  # item.identifier.chop + fp + '.css'
+end
+
+route '/assets/less/*' do
+  # path with version
+  #item.identifier[0..-2] + '-v' + item[:version].to_s + '.css'
+  item.identifier.chop + '.less'
+  #fp = fingerprint(item[:filename])
+  #item.identifier.chop + fp + '.less'
+end
+
+route '/assets/js/*' do
+  item.identifier.chop + '.js'
+  #fp = fingerprint(item[:filename])
+  #item.identifier.chop + fp + '.js'
+end
+
+route '/news/*' do
+  y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)/.match(item.identifier).captures
+
+  "/news/#{y}/#{m}/#{slug}/index.html"
+end
+
+route '/' do
+	'/index.php'
+end
+
+route '*' do
+  if item.binary?
+    # Write item with identifier /foo/ to /foo.ext
+    item.identifier.chop + '.' + item[:extension]
+     
+  else
+    # Write item with identifier /foo/ to /foo/index.html
+    item.identifier + 'index.html'
+    # filter :cache_buster
+  end
+end
+
+layout '*', :erb
+

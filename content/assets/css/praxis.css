@@ -1,0 +1,543 @@
+body {
+text-align:left; 
+font-size: 14px;
+/*Zentrierung f. Internet Explorer < Version 7*/
+}
+
+#wrap {
+padding-bottom:10px;
+width:925px;
+margin:0 auto;
+text-align:left;
+padding-top 10px;
+padding-bottom:10px;
+}
+
+body#home #wrap {
+background-image:url(/assets/img/0029.jpg); 
+background-position: 0px 225px; 
+background-repeat: no-repeat;>
+}
+
+body#kiwu #wrap {
+background-image:url(0015.jpg); 
+background-position: -25px 200px; 
+background-repeat: no-repeat;>
+}
+
+body#team #wrap {
+background-image:url(0036.jpg); 
+background-position: -25px 250px; 
+background-repeat: no-repeat;>
+}
+
+body#praxis #wrap {
+background-image:url(0012.jpg); 
+background-position: -70px 200px; 
+background-repeat: no-repeat;>
+}
+
+body#gyn #wrap {
+background-image:url(0007.jpg); 
+background-position: -25px 200px; 
+background-repeat: no-repeat;>
+}
+
+body#spit #wrap {
+background-image:url(0012.jpg); 
+background-position: 0px 50px; 
+background-repeat: no-repeat;>
+}
+
+body#impr #wrap {
+background-image:url(0023.jpg); 
+background-position: -25px 250px; 
+background-repeat: no-repeat;>
+}
+
+body#info #wrap {
+background-image:url(0011.jpg); 
+background-position: -25px 200px; 
+background-repeat: no-repeat;>
+}
+
+#granat {
+float:left; 
+width:250px; 
+height:4000px; 
+z-index:1;
+}
+
+#header {
+position: relative;
+margin-top:0px;
+left: 0px;
+height: 100px;
+font-family:Vistasansreg, Verdana, sans-serif;
+   font-weight:normal;
+   color: #A73943;
+z-index:2;
+}
+
+
+@font-face{
+    font-family:vistasansblack;
+    src: url(vistasansblack-071211005EmigreWebOnly.eot);
+    src: url(vistasansblack-071211005EmigreWebOnly.eot?#iefix) format(embedded-opentype),
+         url(vistasansblack-071211005EmigreWebOnly.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:vistasansreg;
+    src: url(vistasansreg-071211005EmigreWebOnly.eot);
+    src: url(vistasansreg-071211005EmigreWebOnly.eot?#iefix) format(embedded-opentype),
+         url(vistasansreg-071211005EmigreWebOnly.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:vistasansregit;
+    src: url(vistasansregit-071211005EmigreWebOnly.eot);
+    src: url(vistasansregit-071211005EmigreWebOnly.eot?#iefix) format(embedded-opentype),
+         url(vistasansregit-071211005EmigreWebOnly.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header h1{
+font-family:vistasansblack, verdana, sans-serif;
+font-style:bold;
+margin: 10px;
+margin-bottom: 0px;
+}
+
+#header h2{
+font-family:vistasansreg, verdana, sans-serif;
+font-style:classic;
+margin: 10px;
+margin-bottom: -10px;
+}
+
+#header h3{
+font-family:vistasansregit, verdana, sans-serif;
+font-style:italic;
+margin: 10px;
+margin-bottom: 0px;
+}
+   
+#menu {
+position: relative;
+margin-top: 75px;
+top:0;
+left: 0px;
+height: 15px;
+width 675px;
+}   
+   
+
+
+#menu li {
+display: inline;
+margin-right: 25px;
+list-style: none;
+cursor: pointer;
+}
+
+ul#navigation {
+margin-bottom: 0;
+padding: 0;
+text-align: left;
+}
+
+ul#navigation li {
+list-style: none;
+float: left;
+margin-right: 10px;
+position: relative;
+z-index:3;
+}
+
+ul#navigation li ul {
+margin: 0;
+padding: 0.3em;
+position: absolute;
+z-index:3;
+display: none;
+}
+
+ul#navigation li ul li {
+float: none;
+display: block;
+position: relative;
+z-index: 3;
+color: black;
+}
+
+
+ul#navigation li:hover ul, li.over ul { 
+display: block; 
+float: left;
+background-color: silver;
+}
+
+ul#navigation a {
+    display: block;
+    padding: 0.2em;
+    padding-left:0;
+    font-size: 1.0em;
+    font-style: classic;
+    color: #A73943;
+    font-family: vistasansreg, verdana, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+  }
+  
+ ul#navigation a:hover{
+ color: black;
+ background-color: silver;
+ }
+
+ul#navigation li:hover ul a, li.over ul a {  
+background-color: silver;
+}
+
+div#menu ul#navigation li#current a{
+color: black;
+}
+
+#menu2 {
+position: relative;
+margin-top: 0px;
+top:0;
+left: 0px;
+height: 15px;
+width 675px;
+z-index:2;
+}   
+
+#menu2 li {
+display: inline;
+margin-right: 25px;
+list-style: none;
+cursor: pointer;
+}
+
+ul#navigation2 li {
+list-style: none;
+display: inline;
+float: left;
+margin-right: 10px;
+position: relative;
+z-index:3;
+}
+
+#navigation2 ul li {
+display: inline;
+margin-right:25px;
+}
+
+#navigation2 ul li {
+display: inline;
+margin-right:25px;
+}
+
+ul#navigation2 li:hover ul, li.over ul { 
+display: block; 
+float: left;
+background-color: silver;
+}
+
+ul#navigation2 a {
+    display: block;
+    padding: 0.2em;
+    padding-left:0;
+    font-size: 1.0em;
+    font-style: classic;
+    color: #A73943;
+    font-family: vistasansreg, verdana, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+  }
+
+ ul#navigation2 a:hover{
+ color: black;
+ background-color: silver;
+ }
+
+div#menu2 ul#navigation2 li#current a{
+color: black;
+}
+
+
+#content {
+position: relative;
+margin-top: 35px;
+top:0;
+left: 0px;
+z-index:2;
+color: black;
+}
+
+
+#title {
+left: 0px;
+position: relative;
+z-index:2;
+}
+
+body#impr div#title {
+left: 150px;
+width: 775px;
+}
+
+
+#text {
+left:0px;
+position: relative;
+z-index:2;
+}
+
+
+body#home div#text {
+position: relative;
+left:0px;
+}
+
+
+body#home div#text2 {
+position: relative;
+left:100px;
+width: 825px;
+}
+
+body#home div#text3 {
+position: relative;
+left:225px;
+width: 725px;
+}
+
+body#home div#text4 {
+position: relative;
+left:300px;
+width: 625px;
+}
+
+body#team div#text {
+left: 100px;
+width: 825px;
+}
+
+body#gyn div#text {
+left: 25px;
+width: 900px;
+}
+
+body#spit div#text {
+left: 0px;
+}
+
+body#kiwu div#text {
+left: 0px;
+}
+
+body#kiwu div#text2 {
+position: relative;
+left: 150px;
+width: 775px;
+}
+
+body#kiwu div#text3 {
+left: 0px;
+margin-top: 50px;
+}
+
+body#info div#text {
+left: 0px;
+}
+
+body#impr div#text {
+left: 200px;
+width: 725px;
+}
+
+
+
+#footer {
+position: relative;
+margin-top: 100px;
+top:0;
+left: 0px;
+height: 90px;
+width 675px;
+font-family:Vistasansreg, Verdana, sans-serif;
+   font-weight:normal;
+   color: #A73943;
+   font-size: 1.1em;
+z-index:2;
+}
+
+body#home div#footer {
+margin-top: 100px;
+}
+
+body#impr div#footer {
+margin-top:250px;
+}
+
+p {
+font-family: vistasansreg, verdana, sans-serif;
+font-style:classic;
+font-size:1em;
+margin:10px 10px;
+text-align: left;
+}
+
+#content li {
+font-family: vistasansreg, verdana, sans-serif;
+font-style:classic;
+font-size:1em;
+margin:10px 10px;
+text-align: left;
+color: black;
+list-style-position: inside;
+}
+
+h1 {
+font-family:vistasansblack, verdana, sans-serif;
+font-style:classic;
+font-size:1.2em;
+text-align:left;
+margin: 10px;
+margin-bottom: 40px;
+}
+
+h2 {
+font-family:vistasansblack, verdana, sans-serif;
+font-style:classic;
+font-size:1.1em;
+text-align:left;
+margin-top: 75px;
+margin: 50px;
+margin-bottom: 20px;
+}
+
+h3 {
+font-family:vistasansblack, verdana, sans-serif;
+font-style:classic;
+font-size:1.0em;
+text-align:left;
+margin-top: 75px;
+margin: 50px;
+margin-bottom: 20px;
+}
+
+h4 {
+margin: 10px;
+font-family:helvetica;
+font-style:classic;
+font-size:1.0em;
+text-align:left;
+}
+
+h5 {
+margin: 10px;
+margin-top: 25px;
+font-family:helvetica;
+font-style:classic;
+font-size:1.0em;
+text-align:left;
+}
+
+
+h6 {
+margin:10px;
+margin-top:0;
+font-family:helvetica;
+font-style:classic;
+font-size:1em;
+
+}
+
+
+
+
+
+a:link { 
+font-weight:bold; color:black; text-decoration:underline; 
+}
+a:visited { 
+font-weight:bold; color:black; text-decoration:underline; 
+}
+a:focus { 
+font-weight:bold; color:#A73943; text-decoration:none; 
+background-color: silver;
+}
+a:hover { 
+font-weight:bold; color:#A73943; text-decoration:none; 
+background-color: silver;
+}
+a:active { 
+font-weight:bold; color:black; text-decoration:underline; 
+}
+
+
+
+	
+	/* Fix IE. Hide from IE Mac \*/
+	* html ul#navigation li { float: left; }
+	* html ul#navigation li a { height: 1%; }
+	/* End */
+
+
+
+
+startList = function() {
+if (document.all&&document.getElementById) {
+navRoot = document.getElementById("nav");
+for (i=0; i<navRoot.childNodes.length; i++) {
+node = navRoot.childNodes[i];
+if (node.nodeName=="LI") {
+node.onmouseover=function() {
+this.className+=" over";
+  }
+  node.onmouseout=function() {
+  this.className=this.className.replace�
+	(" over", "");
+   }
+   }
+  }
+ }
+}
+window.onload=startList;
+
+*:first-child+html ul#navigation li {  /* Korrektur fuer den IE 7 */
+    margin-bottom: -0.1em;
+  }
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

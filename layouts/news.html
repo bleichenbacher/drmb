@@ -1,0 +1,31 @@
+<% render 'default' do %>
+
+    <div class='post'>
+    
+      <aside><%= get_pretty_date(item) %></aside>
+      <br>
+    
+      <article>
+        <%= yield %>
+      </article>
+  </div> <!-- post --> 
+  
+  <p><img src="/assets/img/0007.jpg" class="img-rounded pull-right"  width="300px" alt="Granatapfel"> </p>  
+
+	<h3><a href="/de/aktuell/">Aktuell</a></h3>
+	
+	<% (@site.sorted_articles[0..5]).each do |post| %>
+		<h4><%= link_to post[:title], post.path %></h4>
+		<p><small> 	
+	      <%= post[:lead] %> 
+		   (<%= get_pretty_date(post) %>)</small>
+		  
+		  </p>
+	
+	<% end %>
+
+
+
+<% end %>
+
+
