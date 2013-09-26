@@ -8,9 +8,17 @@
 		<p>
 	<a href="/de/cv-mb/">Dr. med. Markus Bleichenbacher</a><br>
 	MSc Clinical Embryology<br>
+	<% if language_code_of(@item) == 'de' %>
+	
 	FMH Gynäkologie und Geburtshilfe<br>
 	Schwerpunkt gynäkologische Endokrinologie und Reproduktionsmedizin<br>
 	Schwerpunkt operative Gynäkologie und Geburtshilfe
+	<% else %> <!-- english -->
+	FMH Gynaecology and Obstetrics <br>
+	Gynaecologic Endocrinology and Reproductive Medicine  <br>
+	Operative Gynaecology and Obstetrics <br>
+	Surgery for Gynaecology and Fertility
+	<% end %>  
 </p>
 
 		<p>Spitalgasse 36 · CH-3011 Bern · T +41 (0) 31 310 24 24 · F +41 (0) 31 310 24 22<br/>
