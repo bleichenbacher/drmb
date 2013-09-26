@@ -2,7 +2,7 @@
 title: "Literatur-Tipps"
 created_at: 2013-09-20 09:00:00 +0000
 kind: article
-lead: "Zu Themen wie Seitensprung, Kinderwunsch und Endometriose"
+lead: "Zu Themen wie Kinderwunsch, Adoption und Endometriose"
 ---
 ## Lektüren zu Kinderwunsch und Gynäkologie 
 
@@ -25,7 +25,7 @@ Sehr informative Broschüre zum Thema Endometriose. Herausgegeben von der Firma 
 
 ### Seitensprünge von Ben Elton
 
-Unerfüllter Kinderwunsch? Der pure Frust. ein Buch darüber? Die reine Lese - Lust. Der englische Bestsellerautor, selbst Vater von Zwillingen nach einer IVF - Behandlung, weiss wovon er schreibt. Ein Roman mit englischem Humor zum Thema Unfruchtbarkeit.
+Unerfüllter Kinderwunsch? Der pure Frust. Ein Buch darüber? Die reine Lese - Lust. Der englische Bestsellerautor, selbst Vater von Zwillingen nach einer IVF - Behandlung, weiss wovon er schreibt. Ein Roman mit englischem Humor zum Thema Unfruchtbarkeit.
  349 Seiten - Goldmann, 2001
 
 

@@ -24,10 +24,12 @@
            <ul class="nav navbar-nav navbar-right">
            
 			<% if language_code_of(@item) == 'en' %>
+			<li><a href="/en/fertility">Fertility</a></li>
             <li><a href="/en/practice/">Practice</a></li>
             <li><a href="/en/contact/">Contact</a></li>
 			
 			<% elsif language_code_of(@item) == 'de' %>
+			<li><a href="/de/kinderwunsch/">Kinderwunsch</a></li>
             <li><a href="/de/praxis/">Praxis</a></li>
             <li><a href="/de/kontakt/">Kontakt</a></li>
 					
@@ -39,14 +41,13 @@
               <ul class="dropdown-menu">
               
    				<% if language_code_of(@item) == 'en' %>
-					<li><a href="/en/fertility">Fertility</a></li>
 	                <li><a href="/en/gynaecology">Gynaecology</a></li>
 	                
 	                <li class="divider"></li>
 	                <li><a href="/en/news"><strong>News</strong></a></li>
 
 				<% elsif language_code_of(@item) == 'de' %>
-                    <li><a href="/de/kinderwunsch/">Kinderwunsch</a></li>
+                   
 	                <li><a href="/de/gynaekologie/">Gynäkologie</a></li>
 	                <li><a href="/de/praxis/homoeopathie/">Homöopathie</a></li>
 	                <li><a href="/de/praxis/kinderwunsch-coaching/">Kinderwunsch Coaching</a></li>
