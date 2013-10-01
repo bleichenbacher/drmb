@@ -13,5 +13,5 @@ Jeweils Mittwochs vormittags.
 
 Das Team von Kinderwunsch Coaching begleitet Frauen und Paare emotional durch die belastende Zeit des unerfüllten Kinderwunsches. Es unterstützt Sie dabei, wieder mehr Gelassenheit und Zuversicht im Thema Kinderwunsch zu finden sowie Ängste und Blockaden abzubauen. 
 
-Weitere Informationen unter [www.kinderwunsch-coaching.ch](www.kinderwunsch-coaching.ch). Terminvereinbarungen sind direkt und über die Praxis möglich
+Weitere Informationen unter [www.kinderwunsch-coaching.ch](http://www.kinderwunsch-coaching.ch/). Terminvereinbarungen sind direkt und über die Praxis möglich
 
