@@ -1,0 +1,27 @@
+---
+title: Translations
+canonical_name: translations
+changefreq: endweekly
+is_hidden: true
+---
+
+<h1>Translations</h1>
+
+<table class="table table-striped">
+<tr>
+	<th>canonical_name</th> <th>title</th> <th>path</th> <th>language code</th>
+	<!-- <th>attributes</th> -->
+</tr>
+  <% translations_of(@item).each do |t| %>
+  <% if (!t.binary? && t[:extension] != "css" && t[:extension] != "js" && t[:extension] != "xml" && t[:extension] != "php" && t[:extension] != "md" && t[:filename] != "content/htaccess.txt" && t[:filename] != "content/trans.html")%>
+  <tr>
+    <td> <%=  t[:canonical_name] %></td> 
+    <td><%= t[:title] %></td=>  
+    <td> <a href="<%= t.path %>"><%= t.path%></a></td>  
+    <td> <%= language_code_of(t) %></td>
+    <!-- <td> <%= t.attributes %></td> -->
+    </tr>
+    <% end %>
+  <% end %>
+</table>
+

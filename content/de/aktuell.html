@@ -1,3 +1,9 @@
+---
+title: Aktuell
+canonical_name: news
+changefreq: endweekly
+
+---
 
 <h1>Aktuell</h1>
 
@@ -14,7 +20,11 @@
 	<h3><%= link_to post[:title], post.path %></h3>
 	<p><%= get_pretty_date(post) %> - 	
     <%= post[:lead] %></p>
-
+    <p>
+	        
+    <a href="<%= post.path %>"><button type="button" class="btn btn-default btn-xs">Mehr &raquo;</button></a>
+    </p>
+	
 <% end %>
 
 

@@ -1,6 +1,32 @@
+---
+title: News
+canonical_name: news
+changefreq: endweekly
+
+---
+
+<h1>News</h1>
+
+
+
+  <div class="row">
+  <div class="col-sm-6">  
+  	  <br>
+  	  <br>
+  	  <p><img src="/assets/img/0015.jpg" class="img-rounded pull-left"  width="300px" alt="Granatapfel"> </p>  
+
+  </div>
+  <div class="col-sm-6">  
 <% (@site.sorted_articles).each do |post| %>
 	<h3><%= link_to post[:title], post.path %></h3>
 	<p><%= get_pretty_date(post) %> - 	
-    <%= post[:lead] %></p>
+    <%= post[:lead] %> 
+    </p>
+    <p>
+    <a href="<%= post.path %>"><button type="button" class="btn btn-default btn-xs">More &raquo;</button></a></p>
 
 <% end %>
+
+
+  </div>  <!-- span -->
+</div> <!-- row -->

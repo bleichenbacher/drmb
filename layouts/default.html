@@ -14,17 +14,16 @@
         <meta name="key-words" content="Praxis, Spitalgasse, Bern, Gynäkologie, Kinderwunsch, Reproduktionsmedizin, Frauenarzt, Markus Bleichenbacher, Linder, Lindenhofspital, Kinderwunschzentrum, IVF, ICSI, IUI" />
         <meta name="Description" content="" />
 		<meta name="Keywords" content="" />
-        <meta name="date" content="2012-03-18T00:30:00+02:00" />
         <meta name="revisit-after" content="30 days" />
 		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 
 
-        <link rel="stylesheet" href="MyFontStylesheet.css" type="text/css" charset="utf-8" />
+       
         <!--[if lt IE 7]>
                     <style type="text/css">@import url(ipsi-e_default.css);</style>
           <![endif]-->
         <link rel="stylesheet" type="text/css" media="print, embossed"
-        href="/assets/css/praxis_print.css">
+        href="/assets/css/print.css">
         <!--
 /*
  * Emigre web font kit 4ff5848a90d6e
@@ -41,7 +40,7 @@
  */
 -->
 
-<title>Praxis für Gynäkologie und Kinderwunsch, Dr. Markus Bleichenbacher, Spitalgasse 36, Bern</title>
+<title><%= item[:title]%> | Praxis für Gynäkologie und Kinderwunsch, Dr. Markus Bleichenbacher, Spitalgasse 36, Bern</title>
         
 
 		
@@ -78,12 +77,8 @@
   <body>
 
 
-        <!-- Add your site or application content here -->
-      
-        <div id="page">
-        
-        
-        <div id="main">
+  <!-- Wrap all page content here -->
+  <div id="wrap">
         
 	  <%= render '_menu' %>
 	  
@@ -95,10 +90,11 @@
       <%= yield %>
       
       </div> <!-- contentContainer -->
-      
+  </div> <!-- wrap-->
+            
       <%= render '_footer' %>
-      </div> <!-- main-->
-    </div>  <!-- page-->
+
+
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

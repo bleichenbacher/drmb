@@ -88,8 +88,12 @@ route '/htaccess/' do
   '/.htaccess'
 end
 
-route '/sitemap/', :rep => 'gzip' do
-  '/sitemap.xml.gz'
+#route '/sitemap/', :rep => 'gzip' do
+#  '/sitemap.xml.gz'
+#end
+
+route 'sitemap' do
+  item.identifier.chop + '.xml'
 end
 
 route '/static/*/' do 
