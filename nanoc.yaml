@@ -90,4 +90,4 @@ deploy:
     dst:  "artooa.ch0@ssh.netzone.ch:/htdocs/drbleichenbacher.artooa.ch"
     
 
-base_url: "http://drbleichenbacher.artooa.ch"
+base_url: "http://www.drbleichenbacher.ch"
