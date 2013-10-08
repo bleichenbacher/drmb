@@ -13,7 +13,7 @@
           </button>
           
           <% if language_code_of(@item) == 'en' %>
-			<a class="navbar-brand" href="/en/">Dr. Markus Bleichenbacher</a> <!-- Dr. med. M. Bleichenbacher -->		
+			<a class="navbar-brand" href="/en/" style="color: #A73943">Dr. Markus Bleichenbacher</a> <!-- Dr. med. M. Bleichenbacher -->		
           <% elsif language_code_of(@item) == 'de' %>
 			<a class="navbar-brand" href="/de/" style="color: #A73943">Dr. Markus Bleichenbacher</a> <!-- Dr. med. M. Bleichenbacher -->
 		  <% end %> 
@@ -37,7 +37,7 @@
 			
             
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info <b class="caret"></b></a>
               <ul class="dropdown-menu">
               
    				<% if language_code_of(@item) == 'en' %>
@@ -70,27 +70,3 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-        
-<div id="menucontainer">
-                   
-<div> <!-- menu
-      			<ul id="nav">
-				
-				<% if language_code_of(@item) == 'en' %>
-				
-				<% elsif language_code_of(@item) == 'de' %>
-						
-				<% end %> 
-
-
-				  
-				  
-				</ul>     
- -->				          
-     
-</div> <!-- menu -->
-
-
-
-</div> <!-- menu container -->

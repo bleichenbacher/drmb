@@ -2,13 +2,27 @@
 /* Main Stylesheet */
 
 
-@import url('bootstrap.css');
-@import url('bootstrap-theme.css');
+/* @import url('bootstrap.css');
+@import url('bootstrap-theme.css');*/
 /*
 @import url('MyFontStylesheet.css');
 @import url('praxis.css');
 @import url('print.css');
 */
+
+
+/*IE8 FIX Menu */
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle,
+.navbar,
+.navbar-inverse .navbar-inner {
+    filter: none;
+    background-image: none;
+}
+
+
+
 
 @grani: #A73943;
 
