@@ -1,8 +1,9 @@
 ---
 title: "Ausstellung mit Margarete Schaller-Samuel"
-created_at: 2013-09-25 09:00:00 +0000
+created_at: "2013-09-25 09:00:00 +0000"
 kind: article
-lead: "Die Wände in der Praxis werden im Wechsel durch Bilder von verschiedenen Künstlerinnen und Künstlern geschmückt."
+lead: Die Wände in der Praxis werden im Wechsel durch Bilder von verschiedenen Künstlerinnen und Künstlern geschmückt.
+published: true
 ---
 
 # Ausstellung "Kunst in der Praxis" 
@@ -11,7 +12,7 @@ lead: "Die Wände in der Praxis werden im Wechsel durch Bilder von verschiedenen
 
 "Etappen" nennt Margarete Schaller-Samuel ihre Bilder. Die Werke sind in einer zehnjährigen Schaffensphase (9.9.99 bis 9.9.09) entstanden und transformieren die Magie unterschiedlicher Orte in geheimnisvolle Bilder. Die Künstlerin sieht sich als Handwerkerin und lässt sich an speziell inspirierenden Orten von Geländeformen und Naturvorkommen aber auch von Relikten menschlicher Einflüsse leiten. In ihrem Atelier werden die ausgewählten Materialien in anspruchsvollen Arbeitsprozessen in pulverisierte Form gebracht, welche sie dann in geometrischen Kompositionen zu Kunstwerken vollendet. Es gelingt ihr damit auf faszinierende Weise, die Realität des Materiellen in eine abstrakte, sublime Form zu übertragen, welche die Essenz der Orte sichtbar macht. "Es ist mir wichtig, dass geografisch alles zusammenpasst und sich nichts aufdrängt." sagt Margarete Schaller-Samuel. Die Bilder entführen die Betrachter in eine Welt der Beschaulichkeit und Harmonie. aosba (Bericht Ausstellung Galerie Papillon Bern, 2009).
 
-Neben meiner Tätigkeit als Jugendbetreuerin in einer Tagesschule gibt mir das Malen einen ruhigen, kreativen Ausgleich. Im Sommer werde ich pensioniert und brauche keine Bedenken zu haben, dass es mir langweilig sein könnte.
+
 
 
 #### Interview für 'dialog', Vereinsorgan Ehemaliger WMB
@@ -46,6 +47,4 @@ Margarete Schaller-Samuel
 Feld 17, 3045 Meikirch  
 Tel. 031 829 13 53  
 schaller-samuel@bluewin.ch  
-www.homepage.bluewin.ch/gritli  
-
-
+www.homepage.bluewin.ch/gritli
