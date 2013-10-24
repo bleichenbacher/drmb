@@ -129,6 +129,10 @@ route '/news/*' do
   "/news/#{y}/#{m}/#{slug}/index.html"
 end
 
+#route '/de/kontaktfrm/' do
+#	  item.identifier + 'index.php'
+#end
+
 route '/' do
 	'/index.php'
 end
