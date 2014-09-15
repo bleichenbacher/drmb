@@ -15,7 +15,7 @@
 
 
 
-# Stylesheets 
+# Stylesheets
 #compile '/assets/css/**' do
 #  filter :less
 #end
@@ -40,12 +40,12 @@ compile '/assets/ico/*' do
 end
 
 compile '/assets/css/*' do
-  # filter :less	
+  # filter :less
   filter :rainpress
   filter :relativize_paths, :type => :css
   # filter :cache_buster
 end
-     
+
 compile '/assets/less/*' do
 #  filter :less
   #filter :cache_buster
@@ -96,11 +96,11 @@ route 'sitemap' do
   item.identifier.chop + '.xml'
 end
 
-route '/static/*/' do 
-  item.identifier.chop 
-end 
+route '/static/*/' do
+  item.identifier.chop
+end
 
-# Stylesheets 
+# Stylesheets
 route '/assets/css/*' do
   # path with version
   # item.identifier[0..-2] + '-v' + item[:version].to_s + '.css'
@@ -137,11 +137,15 @@ route '/' do
 	'/index.php'
 end
 
+route  'mfv2.php' do
+  '/mfv2.php'
+end
+
 route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
     item.identifier.chop + '.' + item[:extension]
-     
+
   else
     # Write item with identifier /foo/ to /foo/index.html
     item.identifier + 'index.html'
@@ -150,4 +154,3 @@ route '*' do
 end
 
 layout '*', :erb
-
