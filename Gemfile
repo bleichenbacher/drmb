@@ -1,9 +1,9 @@
 source "http://rubygems.org"
-ruby "1.9.3",
+ruby "2.1.1",
   :engine => "ruby",
-  :engine_version => "1.9.3"
-  
-gem 'nanoc'
+  :engine_version => "2.1.1"
+
+gem 'nanoc' , '3.6.4'
 gem 'nanoc-cachebuster'
 gem 'mime-types'
 gem 'less'
@@ -22,4 +22,3 @@ gem 'nokogiri'
 gem 'w3c_validators'
 gem 'guard'
 gem 'guard-nanoc'
-

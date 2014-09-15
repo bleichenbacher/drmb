@@ -71,7 +71,7 @@ DEPENDENCIES
   less
   listen
   mime-types
-  nanoc
+  nanoc (= 3.6.4)
   nanoc-cachebuster
   nokogiri
   pry
