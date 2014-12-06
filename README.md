@@ -3,20 +3,26 @@ drmb
 
 drmb is the source repository of [drbleichenbacher.ch] (http://www.drbleichenbacher.ch/)
 
+### Install
+
+* Ruby  Version > 1.9
+* Bundler Bundlr: http://bundler.io/
+
 
 ### Configuration Management
 
-Bundlr: http://bundler.io/
 
-  bundle [install|update]
+  bundle [install | update]
 
 
-### Compile Website
+### Generate Website
 
 `nanoc`
 
-Docs: http://nanoc.ws/docs/
+See docs: http://nanoc.ws/docs/
+
+Run a local webserver: `nanoc view`
 
 ### Deploy
 
-  nanoc deploy --target [public|staging]
+  nanoc deploy --target [public | staging]
