@@ -10,17 +10,10 @@ lead: "Zu Themen wie Kinderwunsch, Adoption und Endometriose"
 Meine Empfehlungen
 
 
-### Patientenbroschüre zum Thema Kinderwunsch
-
-Herausgegeben von Serono Pharma Schweiz
 
 
 
-### Broschüre Endometriose
 
-
-
-Sehr informative Broschüre zum Thema Endometriose. Herausgegeben von der Firma Ferring Schweiz in Zusammenarbeit mit Dr. Michael Häberle, Zürich. Sie erhalten die Broschüre gratis im Ambulatorium der Frauenklinik Luzern.
 
 
 ### Seitensprünge von Ben Elton
